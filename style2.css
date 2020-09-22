@@ -1,0 +1,767 @@
+.div_jour{
+
+	display: flex;
+	flex-direction: row;
+	margin-left: 45px;
+	margin-right: 45px;
+	margin-top: 25px;
+	margin-bottom: 50px; 
+	padding-bottom: 50px;
+	height: 400px;
+	border-bottom: solid;
+	border-width: 2px;
+}
+
+.div_heure{
+
+	display: flex;
+	flex-direction: column;
+	width: 100%
+}
+
+
+
+
+
+.icon_heure{
+	margin-left: auto;
+	margin-right: auto; 
+	text-align: center;
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.condi_heure{
+	text-align: center;
+
+}
+
+.heure_jour{
+	text-align: center;
+
+
+}
+
+.temp_heure{
+	text-align: center;
+	align-self: center;
+		
+}
+
+.map_france{
+
+
+	
+	display: block;
+	margin: auto;
+
+}
+
+#mapdep{
+	display: block;
+	margin: auto;
+	
+
+}
+
+.info_complementaire1{
+
+	text-align: center;
+	margin-top: auto;
+	align-self: center
+
+
+
+
+}
+
+.info_complementaire{
+
+	text-align: center;
+
+
+
+
+}
+
+.icon_vent{
+
+	margin-left: auto;
+	margin-right: auto; 
+	text-align: center;
+	width: 30px;
+
+}
+
+header{
+
+
+	background-color: #4169E1;
+	height: 35px;
+	position: fixed;
+ 	width: 100%;
+	top: 0;
+
+}
+
+
+footer{
+
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 5px;
+	background-color: silver;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+
+
+.HeaderBoutonGauche , .HeaderBoutonDroit{
+
+	padding: 8px 15px;
+
+
+}
+
+.divHeader{
+
+	display: flex;
+	flex-direction: row;
+	margin-left: 30px;
+	margin-right: 150px;
+	height: 35px;
+
+}
+
+.divHeaderBoutonGauche ,.divHeaderBoutonDroit{
+
+	display: flex;
+	flex-direction: row;
+	text-decoration: none;
+	margin-left: 30px;
+	padding: 7px;  
+	font-size: 117%;
+	
+
+}
+
+
+.headerBoutonGauche:hover,.headerBoutonDroit:hover{
+
+	text-decoration: underline;
+	color: white;
+
+}
+
+.divHeaderGauche{
+	display: flex;
+	flex-direction: row;
+
+
+}
+
+.divHeaderDroit{
+
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	margin-right: 2px;
+
+
+}
+
+
+#logoMaison , #logoBack{
+
+	padding: 0px 15px; 
+
+}
+
+
+.divLogoBack, .divLogoMaison{
+
+	margin-left: 15px;
+	margin-right: 15px;
+	
+	
+}
+
+#infoCarteFrance{
+
+	margin-top: 40px;
+	margin-bottom: 5px;
+
+}
+
+
+#HeuRefreshStat{
+
+	display: block;
+	text-align: center;
+	margin-top: 45px;
+
+}
+
+.divChangePwd{
+
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+
+}
+
+#infoStat{
+
+	display: flex;
+	flex-direction: row;
+	margin-top: 15px;
+
+}
+
+.divinfoStat{
+
+	margin-right: 30px;
+	font-size: 150%;	
+	text-align: center;
+
+}
+
+
+ul li a {
+
+	text-decoration: none;
+	color: white;
+}
+
+
+#inscription{
+
+	background-color: black;
+
+}
+
+#deconnexion{
+
+	background-color: black;
+
+}
+
+#connexion {
+
+	background-color: grey;
+	
+}
+
+#info_compte{
+
+	background-color: grey;
+
+}
+
+#logo_meteo{
+
+	
+	height: 125px;
+	float: left;
+}
+
+#test{
+
+	display: inline-block;
+	float: left;
+
+}
+
+
+.form_ville{
+
+	display: block;
+	margin-bottom: 5px;
+
+}
+#formulaire_inscription {
+
+	margin-top: 40px;  
+
+
+}
+
+#formulaire_connexion{
+
+	margin-top: 40px; 
+
+}
+
+#StatRegion{
+
+	height: 375px;
+	width: 750px;
+
+}
+
+
+#DivMyChart{
+
+	width: 605px;
+	height: 700px;
+	display: flex;
+	flex-direction: column;
+
+}
+
+#DivMyChart1{
+
+	width: 605px;
+	height: 700px;
+
+}
+
+#DivMyChart2{
+
+	width: 605px;
+	height: 700px;
+
+}
+
+
+#NbrVisiteur{
+
+
+}
+
+#divGeneralStat{
+
+	margin-top: 40px;
+	display: flex;
+	flex-direction: row;
+
+}
+
+#divStatDroite{
+
+	margin-right: : 150px;
+	padding-left: 150px; 
+	display: flex;
+	flex-direction: column;
+
+}
+
+#divStatGauche{
+
+	width: 605px;
+	height: 700px;
+	padding-right: 150px;
+	margin-left: 150px;
+	display: flex;
+	flex-direction: column
+
+}
+
+/*MeteoTendance
+*/
+.MeteoTendance{
+	display: flex;
+	flex-direction: column;
+	margin-left: auto;
+	margin-right: 45px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+/*InterneTendance
+*/
+.InterneTendance{
+
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.tendanceObejct{
+
+	display: block;
+	margin: auto;
+	width: 70%;
+	margin-left: auto;
+	font-size: 300%;
+
+
+}
+
+
+#meteoActuel{
+
+	margin-top: 40px;
+	padding-left: 100px;
+	padding-bottom: 10px;
+	display: flex;
+	flex-direction: column;
+	border-bottom: solid;
+	border-width: 2px;
+
+
+
+}
+
+#temp-logo{
+
+	display: flex;
+	flex-direction: row;
+
+
+}
+
+#temperature{
+
+	font-size: 600%;
+
+}
+
+h1{
+
+
+	font-size: 350%;
+
+}
+
+
+
+.infoMeteoActHori{
+
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+
+}
+
+
+.infoMeteoActVert{
+
+	padding-right: 30px;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.info{
+
+	font-size: 135%;
+	margin-bottom: 2px;
+
+}
+
+.valeur{
+
+	font-size: 225%;
+	margin-bottom: 7px;
+
+
+
+}
+
+#imgDirAct{
+
+	margin-top: 7px;
+	margin-left: 23px;
+
+}
+
+#divAnnonceMeteo1{
+
+	margin-top: 25px;
+	margin-left: 45px;
+	font-size: 200%;
+
+}
+
+#divAnnonceMeteo2{
+
+	margin-left: 45px;
+	font-size: 200%;
+	margin-top: -25px;
+
+}
+
+.infoTendance{
+
+	font-size: 75%;
+	
+
+}
+
+#varInterneTendance{
+
+margin-bottom: 30px;
+
+}
+
+#annonceMeteoJour{
+
+	margin-left: 45px;
+	font-size: 200%;
+	margin-top: -25px;
+
+}
+
+#MeteoJour{
+
+	margin-left: 80px;
+	margin-top: 25px;
+	font-size: 150%;
+
+}
+
+#parmForm1{
+
+	visibility: hidden;
+
+}
+
+#parmForm2{
+
+	visibility: hidden;
+
+}
+
+.slider{
+	-webkit-appearance: none;  /* Override default CSS styles */
+	margin-top: 13px;
+	margin-bottom: 12px;
+	appearance: none;
+	width: 100%; /* Full-width */
+	height: 15px; /* Specified height */
+	background: #d3d3d3; /* Grey background */
+	outline: none; /* Remove outline */
+ 	opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+
+
+}
+
+.slider:hover {
+	opacity: 1;
+}
+
+.slider::-webkit-slider-thumb { /*Chrome, Opera, Safari, Edge */
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  border-radius: 50%;
+  background: black; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb { /* Mozilla */
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  border-radius: 50%;
+  background: black; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+
+#divDep{
+
+	display: flex;
+	flex-direction: row;
+
+}
+
+#divInfoDep{
+
+	display: flex;
+	flex-direction: column;
+	margin-left: 120px;
+	margin-right: 160px;
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 750px;
+
+}
+
+.divInfoSlider{
+
+	display: flex;
+	flex-direction: row;
+
+}
+
+#titreDep{
+
+	font-size: 200%;
+	margin-bottom: 7px;
+
+}
+
+#nomDep{
+
+	margin: auto;
+	margin-top: 40px;
+
+}
+
+#nomReg{
+
+	text-align: center;	
+	margin: auto;
+
+}
+
+#divNomReg{
+
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 5px;
+
+}
+
+#divCarteReg{
+
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+
+}
+
+#divCarteFrance{
+
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	margin-top: 3px;
+
+}
+
+.divRow{
+
+	display: flex;
+	flex-direction: row;
+	width: 75%;
+
+}
+
+.divRow2{
+
+	display: flex;
+	flex-direction: row;
+	width: 86%;
+
+}
+
+
+.divColone{
+
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+	width: 100%;
+	margin-top: 15px;
+
+
+}
+
+.divInsCon{
+
+	display: flex;
+	flex-direction: column;
+	margin-left: 20%;
+
+}
+
+.inscripInfo{
+
+	margin-top: 15px;
+	margin-bottom: 5px;
+
+}
+
+
+input[type=text] {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  /*resize: vertical;*/
+}
+
+input[type=password]{
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+
+
+}
+
+input[type=password]:focus {
+  border: 3px solid #555;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+
+input[type=button] {
+	background-color: #4169E1;
+  	color: white;
+  	padding: 14px 20px;
+  	margin: 8px 0;
+  	border: none;
+  	border-radius: 4px;
+  	cursor: pointer;
+}
+
+input[type=button]:hover {
+  	background-color: #1e47c1;
+}
+
+
+.divJourLogo{
+
+	display: flex;
+	flex-direction: column;
+	margin-top: 290px;
+
+}
+
+.divJourLogoALL{
+
+	display: flex;
+	flex-direction: column;
+
+}
+
+.divJourLogoHorloge{
+	display: flex;
+	flex-direction: column;
+	margin-top: -5px;
+
+
+}
+
+#logoHumidity, #logoVent, #logoHorloge{
+
+	display: block;
+	margin: auto;
+
+}
+
+#hidden{
+
+	visibility: collapse;
+
+}
+
+#ErrorMeteo{
+
+	padding: 398px;
+	text-align: center;
+	margin: auto;
+
+}
+
